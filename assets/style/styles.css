@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    color: aliceblue;
+    box-sizing:border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+body{
+    background-image: url(../img/hor/pareja_iglesia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15%;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.boton:hover{
+    background-color: rgba(255, 255, 255, 0.406);
+
+}
+
+.boton{
+    font-size: 20px;
+}
+
+.principal{
+    border: 3px solid black;
+    padding: 7%;
+}
+
+@media only screen and (max-width:960px) {
+    html{ 
+        display: flex;        
+        flex-direction: column;
+        align-items: center;
+        background-image: url(../img/vert/novios.jpeg);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+       
+    }
+}
+
